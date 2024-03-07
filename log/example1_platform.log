@@ -1,0 +1,14 @@
+java -Djdk.virtualThreadScheduler.parallelism=1 com.faire.example.virtualthreads.Main 1 false
+
+# Console
+
+Running example 1 with platform threads
+
+main: Starting threadA
+main: Starting threadB
+main: Joining threads
+threadB: Hello
+threadA: Hello
+main: Done!
+
+Done running example 1
